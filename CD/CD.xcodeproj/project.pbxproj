@@ -16,6 +16,8 @@
 		787714651BFCCF4E003DA747 /* CDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787714641BFCCF4E003DA747 /* CDUITests.swift */; };
 		787714741BFCCFA8003DA747 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787714731BFCCFA8003DA747 /* CoreDataStack.swift */; };
 		787714771BFCD6B9003DA747 /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 787714751BFCD6B9003DA747 /* Data.xcdatamodeld */; };
+		7877147A1BFCE193003DA747 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787714781BFCE193003DA747 /* Student+CoreDataProperties.swift */; };
+		7877147B1BFCE193003DA747 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787714791BFCE193003DA747 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		787714661BFCCF4E003DA747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		787714731BFCCFA8003DA747 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		787714761BFCD6B9003DA747 /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+		787714781BFCE193003DA747 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		787714791BFCE193003DA747 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 		787714721BFCCF8F003DA747 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				787714781BFCE193003DA747 /* Student+CoreDataProperties.swift */,
+				787714791BFCE193003DA747 /* Student.swift */,
 				787714731BFCCFA8003DA747 /* CoreDataStack.swift */,
 				787714751BFCD6B9003DA747 /* Data.xcdatamodeld */,
 			);
@@ -271,9 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				787714741BFCCFA8003DA747 /* CoreDataStack.swift in Sources */,
+				7877147B1BFCE193003DA747 /* Student.swift in Sources */,
 				787714471BFCCF4E003DA747 /* ViewController.swift in Sources */,
 				787714451BFCCF4E003DA747 /* AppDelegate.swift in Sources */,
 				787714771BFCD6B9003DA747 /* Data.xcdatamodeld in Sources */,
+				7877147A1BFCE193003DA747 /* Student+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

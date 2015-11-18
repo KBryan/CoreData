@@ -49,8 +49,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JoM-m8-5oc">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="z8B-1M-YPu"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="z8B-1M-YPu">
+                            <connections>
+                                <action selector="saveStudentButton:" destination="BYZ-38-t0r" id="5mf-jk-BQf"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="myTableView" destination="4bA-Sj-kWx" id="WKn-IX-Fuy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
